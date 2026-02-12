@@ -22,6 +22,7 @@ Then it **elaborates** the entity defined by `$TB_ENTITY`
 Finally, the workflow **runs** the simulation. If successful then it will quietly exit with a `0` code.
 If any of the `assert` statements fail then GHDL will cease the simulation and exit with non-zero code; this will also cause the workflow to fail.
 Assert statements of other severity levels will be reported, but not fail the workflow.
-![description of my waveform](Waveform.png)
+![my waveform](Waveform.png)
 
 Documentation Statement: I asked Lt Col Wyche about the component portion for the ripple_adder in the ripple_adder_tb file and why some are STD_LOGIC and others are STD_LOGIC_VECTORS. No other guidance used.
+<img width="923" height="527" alt="Waveform" src="https://github.com/user-attachments/assets/412849a4-759c-432e-b4cb-b23abe9c07ea" />
